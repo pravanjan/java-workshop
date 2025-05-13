@@ -1,0 +1,8 @@
+# https://docs.gradle.org/current/userguide/platforms.html#sub::toml-dependencies-format
+
+[versions]
+spring-boot-plugin = "3.1.5"
+
+[plugins]
+spring-boot = { id = "org.springframework.boot", version.ref = "spring-boot-plugin" }
+spring-boot-starter-web = { id = "org.springframework.boot:spring-boot-starter-web", version.ref = "spring-boot-plugin" }

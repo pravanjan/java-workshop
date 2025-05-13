@@ -1,0 +1,21 @@
+server:
+  port: 8080
+
+logging:
+  level:
+    org.aw: debug
+    org.springframework.web.filter.CommonsRequestLoggingFilter: debug
+  exception:
+    response:
+      verbose: true
+
+springdoc:
+  api-docs:
+    enabled: true
+    path: /docs/schema
+  swagger-ui:
+    enabled: true
+    path: /docs/swagger-ui
+    operations-sorter: method
+  default-produces-media-type: application/json
+
