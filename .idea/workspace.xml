@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4621d15-fbcf-4446-94f8-dc795dbcb00d" name="Changes" comment="" />
+    <list default="true" id="e4621d15-fbcf-4446-94f8-dc795dbcb00d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/booking/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/apps/booking/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/customer/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/apps/customer/readme.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,6 +129,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -146,6 +153,7 @@
     "Gradle.java-workshop:apps:booking [clean].executor": "Run",
     "Gradle.java-workshop:apps:contact [:apps:contact:org.demo.contact.CustomerApplication.main()].executor": "Run",
     "Gradle.java-workshop:apps:customer [:apps:customer:org.demo.customer.CustomerApplication.main()].executor": "Run",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/pravanjan/Documents/workspace/java-workshop/apps/contact/src/main/java",
     "onboarding.tips.debug.path": "/Users/pravanjan/Documents/workspace/java-workshop/src/main/java/org/example/Main.java",
