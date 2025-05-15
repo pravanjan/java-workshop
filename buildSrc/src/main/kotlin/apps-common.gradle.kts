@@ -3,7 +3,6 @@ plugins {
 }
 
 dependencies {
-    implementation("org.springframework.boot:spring-boot-starter-web:3.3.5")
     implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.6.0")
 
     compileOnly("org.projectlombok:lombok:1.18.34")

@@ -7,7 +7,7 @@ import org.demo.booking.web.booking.data.AppointmentRequest;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import java.util.Map;
+import java.util.UUID;
 
 @Service
 @RequiredArgsConstructor
@@ -18,13 +18,19 @@ public class AppointmentService {
 
     public AppointmentConfirmResponse bookAppointment(String accountId, AppointmentRequest appointmentRequest) {
         //create a new customer
-        String url = "http://localhost:8081/v1/customer/create/" + accountId;
-        Map customerMap = Map.of("name", appointmentRequest.customerName(), "email", appointmentRequest.customerEmail());
-
-        String response = restTemplate.postForObject(url, customerMap, String.class);
-        System.out.println(response);
-
-        return appointmentRepository.save();
+        try {
+            // Simulate processing delay (e.g., DB/API call)
+            Thread.sleep(300); // 2 seconds
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt(); // restore interrupted status
+            throw new IllegalStateException("Interrupted during simulated delay", e);
+        }
+        return new AppointmentConfirmResponse(
+                accountId,
+                UUID.randomUUID().toString(),
+                UUID.randomUUID().toString(),
+                true,
+                "This is test");
     }
 
 

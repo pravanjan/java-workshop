@@ -1,6 +1,8 @@
 server:
   port: 8080
 
+
+
 logging:
   level:
     org.aw: debug
@@ -8,6 +10,7 @@ logging:
   exception:
     response:
       verbose: true
+
 
 springdoc:
   api-docs:

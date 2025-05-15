@@ -1,8 +1,8 @@
-# Customer Application
+# Booking Application
 
 ## 📄 Info
 
-A sample application with examples. It is a base application to be used for new projects.
+A booking application with examples. It is a base application to be used for new projects.
 
 For further information please check root `readme.md` file.
 

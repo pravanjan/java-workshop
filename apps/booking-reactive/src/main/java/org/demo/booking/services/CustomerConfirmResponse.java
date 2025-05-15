@@ -1,4 +1,4 @@
-package org.demo.customer.web.customer.data;
+package org.demo.booking.services;
 
 public record CustomerConfirmResponse(
         String accountId,

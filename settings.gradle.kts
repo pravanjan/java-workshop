@@ -1,6 +1,6 @@
 rootProject.name = "java-workshop"
 
 include(
-    "apps:customer",
-    "apps:booking"
+    "apps:booking",
+    "apps:booking-reactive"
 )

@@ -7,12 +7,12 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 @OpenAPIDefinition(
         servers = {
-                @Server(url = "https://booking-app-796267529885.us-central1.run.app", description = "Booking service ")
+                @Server(url = "http://localhost:8082", description = "Booking service ")
         }
 )
 @SpringBootApplication(scanBasePackages = "org.demo")
-public class BookingApplication {
+public class ReactiveBookingApplication {
     public static void main(String[] args) {
-        SpringApplication.run(BookingApplication.class, args);
+        SpringApplication.run(ReactiveBookingApplication.class, args);
     }
 }

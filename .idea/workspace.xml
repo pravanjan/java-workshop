@@ -5,9 +5,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4621d15-fbcf-4446-94f8-dc795dbcb00d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/booking-reactive/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/booking-reactive/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/booking-reactive/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/booking-reactive/src/main/java/org/demo/booking/ReactiveBookingApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/booking-reactive/src/main/java/org/demo/booking/repository/AppointmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/booking-reactive/src/main/java/org/demo/booking/repository/model/Appointment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/booking-reactive/src/main/java/org/demo/booking/services/AppointmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/booking-reactive/src/main/java/org/demo/booking/services/CustomerConfirmResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/booking-reactive/src/main/java/org/demo/booking/web/booking/AppointmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/booking-reactive/src/main/java/org/demo/booking/web/booking/data/AppointmentConfirmResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/booking-reactive/src/main/java/org/demo/booking/web/booking/data/AppointmentRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/booking-reactive/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/booking-virtual/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/booking-virtual/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/booking-virtual/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/booking-virtual/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/booking-virtual/src/main/java/org/demo/booking/BookingApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/booking-virtual/src/main/java/org/demo/booking/configuration/VirtualThreadConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/booking-virtual/src/main/java/org/demo/booking/repository/AppointmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/booking-virtual/src/main/java/org/demo/booking/repository/model/Appointment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/booking-virtual/src/main/java/org/demo/booking/services/AppointmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/booking-virtual/src/main/java/org/demo/booking/services/CustomerConfirmResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/booking-virtual/src/main/java/org/demo/booking/web/booking/AppointmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/booking-virtual/src/main/java/org/demo/booking/web/booking/data/AppointmentConfirmResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/booking-virtual/src/main/java/org/demo/booking/web/booking/data/AppointmentRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/booking/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/apps/booking/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/customer/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/apps/customer/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/booking/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/apps/booking/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/booking/src/main/java/org/demo/booking/BookingApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/booking/src/main/java/org/demo/booking/BookingApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/booking/src/main/java/org/demo/booking/configuration/RestTemplateConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/booking/src/main/java/org/demo/booking/repository/AppointmentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/booking/src/main/java/org/demo/booking/repository/AppointmentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/booking/src/main/java/org/demo/booking/services/AppointmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/booking/src/main/java/org/demo/booking/services/AppointmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/booking/src/main/java/org/demo/booking/web/booking/AppointmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/booking/src/main/java/org/demo/booking/web/booking/AppointmentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/booking/src/main/java/org/demo/booking/web/booking/data/AppointmentConfirmResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/booking/src/main/java/org/demo/booking/web/booking/data/AppointmentConfirmResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/booking/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/apps/booking/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/customer/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/customer/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/apps/booking-reactive/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/customer/src/main/java/org/demo/customer/CustomerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/customer/src/main/java/org/demo/customer/repository/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/customer/src/main/java/org/demo/customer/repository/model/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/customer/src/main/java/org/demo/customer/services/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/customer/src/main/java/org/demo/customer/web/customer/CustomerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/customer/src/main/java/org/demo/customer/web/customer/data/CustomerConfirmResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/booking/src/main/java/org/demo/booking/services/CustomerConfirmResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/customer/src/main/java/org/demo/customer/web/customer/data/CustomerRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/customer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/apps/booking-virtual/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/src/main/kotlin/apps-common.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/src/main/kotlin/apps-common.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,12 +96,6 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="java-workshop" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="application" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="java-workshop" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
               </path>
               <path>
@@ -68,51 +108,6 @@
                 <item name="java-workshop" type="f1a62948:ProjectNode" />
                 <item name="apps" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="java-workshop" type="f1a62948:ProjectNode" />
-                <item name="apps" type="2d1252cf:ModuleNode" />
-                <item name="booking" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="java-workshop" type="f1a62948:ProjectNode" />
-                <item name="apps" type="2d1252cf:ModuleNode" />
-                <item name="booking" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="java-workshop" type="f1a62948:ProjectNode" />
-                <item name="apps" type="2d1252cf:ModuleNode" />
-                <item name="booking" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="java-workshop" type="f1a62948:ProjectNode" />
-                <item name="apps" type="2d1252cf:ModuleNode" />
-                <item name="booking" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="help" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="java-workshop" type="f1a62948:ProjectNode" />
-                <item name="apps" type="2d1252cf:ModuleNode" />
-                <item name="booking" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="other" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="java-workshop" type="f1a62948:ProjectNode" />
-                <item name="apps" type="2d1252cf:ModuleNode" />
-                <item name="booking" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="verification" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -146,16 +141,21 @@
     "Gradle.Build java-workshop.executor": "Run",
     "Gradle.java-workshop [build].executor": "Run",
     "Gradle.java-workshop [clean].executor": "Run",
+    "Gradle.java-workshop:apps [build].executor": "Run",
     "Gradle.java-workshop:apps:booking [:apps:booking:org.aw.booking.BookingApplication.main()].executor": "Run",
     "Gradle.java-workshop:apps:booking [:apps:booking:org.demo.booking.BookingApplication.main()].executor": "Run",
     "Gradle.java-workshop:apps:booking [assemble].executor": "Run",
     "Gradle.java-workshop:apps:booking [build].executor": "Run",
     "Gradle.java-workshop:apps:booking [clean].executor": "Run",
+    "Gradle.java-workshop:apps:booking-reactive [:apps:booking-reactive:org.demo.booking.ReactiveBookingApplication.main()].executor": "Run",
+    "Gradle.java-workshop:apps:booking-virtual [:apps:booking-virtual:org.demo.booking.BookingApplication.main()].executor": "Run",
     "Gradle.java-workshop:apps:contact [:apps:contact:org.demo.contact.CustomerApplication.main()].executor": "Run",
     "Gradle.java-workshop:apps:customer [:apps:customer:org.demo.customer.CustomerApplication.main()].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/pravanjan/Documents/workspace/java-workshop/apps/contact/src/main/java",
+    "last_opened_file_path": "/Users/pravanjan/Documents/workspace/java-workshop/apps",
     "onboarding.tips.debug.path": "/Users/pravanjan/Documents/workspace/java-workshop/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
@@ -165,12 +165,43 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/apps/contact/src/main/java" />
       <recent name="$PROJECT_DIR$/apps" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/apps/booking/src/main/resources" />
+      <recent name="$PROJECT_DIR$/apps/contact/src/main/java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.demo.booking.services" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.java-workshop:apps:booking [build]">
-    <configuration name="java-workshop [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.java-workshop [assemble]">
+    <configuration name="BookingApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.demo.booking.BookingApplication" />
+      <module name="java-workshop.apps.booking-virtual.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.demo.booking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReactiveBookingApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.demo.booking.ReactiveBookingApplication" />
+      <module name="java-workshop.apps.booking-reactive.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.demo.booking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="java-workshop [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -181,7 +212,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="build" />
+            <option value="assemble" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -214,32 +245,10 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="java-workshop:apps:booking [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="java-workshop:apps [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/apps/booking" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="assemble" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="java-workshop:apps:booking [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/apps/booking" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/apps" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -248,28 +257,6 @@
         <option name="taskNames">
           <list>
             <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="java-workshop:apps:booking [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/apps/booking" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -293,11 +280,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.java-workshop:apps:booking [build]" />
-        <item itemvalue="Gradle.java-workshop:apps:booking [clean]" />
-        <item itemvalue="Gradle.java-workshop:apps:booking [assemble]" />
-        <item itemvalue="Gradle.java-workshop [build]" />
+        <item itemvalue="Gradle.java-workshop [assemble]" />
         <item itemvalue="Gradle.java-workshop [clean]" />
+        <item itemvalue="Application.BookingApplication (1)" />
+        <item itemvalue="Application.ReactiveBookingApplication" />
+        <item itemvalue="Gradle.java-workshop:apps [build]" />
       </list>
     </recent_temporary>
   </component>
