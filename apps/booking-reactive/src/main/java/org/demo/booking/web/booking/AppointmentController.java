@@ -9,17 +9,17 @@ import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Mono;
 
 @RestController
-@RequestMapping(path = "/v1/book")
+@RequestMapping(path = "/v1/appointments")
 @RequiredArgsConstructor
 @Slf4j
 public class AppointmentController {
 
     private final AppointmentService  appointmentService;
 
-    @PostMapping("/{accountId}")
-    public Mono<AppointmentConfirmResponse> bookAppointment(@PathVariable final String accountId, @RequestBody AppointmentRequest appointmentRequest) {
-            log.info("Booking appointment for accountId: {}", accountId);
-        return appointmentService.bookAppointment(accountId,appointmentRequest);
+    @PostMapping("")
+    public Mono<AppointmentConfirmResponse> bookAppointment(@RequestBody AppointmentRequest appointmentRequest) {
+            log.info("Booking appointment for accountId: {}", appointmentRequest.appointmentTime());
+        return appointmentService.bookAppointment(appointmentRequest);
     }
 
 

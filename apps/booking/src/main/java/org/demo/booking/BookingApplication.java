@@ -1,15 +1,9 @@
 package org.demo.booking;
 
 
-import io.swagger.v3.oas.annotations.OpenAPIDefinition;
-import io.swagger.v3.oas.annotations.servers.Server;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-@OpenAPIDefinition(
-        servers = {
-                @Server(url = "https://booking-app-796267529885.us-central1.run.app", description = "Booking service ")
-        }
-)
+
 @SpringBootApplication(scanBasePackages = "org.demo")
 public class BookingApplication {
     public static void main(String[] args) {
