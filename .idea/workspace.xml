@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4621d15-fbcf-4446-94f8-dc795dbcb00d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/booking-reactive/src/main/java/org/demo/booking/services/AppointmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/booking-reactive/src/main/java/org/demo/booking/services/AppointmentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/booking-reactive/src/main/java/org/demo/booking/web/booking/AppointmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/booking-reactive/src/main/java/org/demo/booking/web/booking/AppointmentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/booking/src/main/java/org/demo/booking/BookingApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/booking/src/main/java/org/demo/booking/BookingApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/booking/src/main/java/org/demo/booking/services/AppointmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/booking/src/main/java/org/demo/booking/services/AppointmentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/booking/src/main/java/org/demo/booking/web/booking/AppointmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/apps/booking/src/main/java/org/demo/booking/web/booking/AppointmentController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +79,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.BookingApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.BookingApplication.executor&quot;: &quot;Run&quot;,
     &quot;Application.CustomerApplication.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.Build java-workshop.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.java-workshop [assemble].executor&quot;: &quot;Run&quot;,
@@ -123,7 +118,7 @@
       <recent name="org.demo.booking.services" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BookingApplication">
+  <component name="RunManager" selected="Application.ReactiveBookingApplication">
     <configuration name="BookingApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -222,8 +217,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReactiveBookingApplication" />
         <item itemvalue="Application.BookingApplication" />
+        <item itemvalue="Application.ReactiveBookingApplication" />
         <item itemvalue="Gradle.java-workshop [clean]" />
         <item itemvalue="Application.BookingApplication (1)" />
         <item itemvalue="Gradle.java-workshop [build]" />
